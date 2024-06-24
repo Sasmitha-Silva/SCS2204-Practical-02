@@ -12,7 +12,7 @@ def main(): Unit = {
   println(s"--b * a + c * d-- : ${b * a + c * d}")
   d -= 1
 
-  // (b) a++
+  // (b) a++  [There is no post-increment in Scala]
   println(s"a++ : $a")
   a += 1
 
